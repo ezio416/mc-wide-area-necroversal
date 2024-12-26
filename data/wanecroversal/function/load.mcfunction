@@ -2,10 +2,11 @@
 # m 2024-12-26
 
 scoreboard objectives add wanecroversal.deaths deathCount
+scoreboard objectives add wanecroversal.seen dummy
 
 scoreboard objectives add wanecroversal.values dummy
 scoreboard players set $two wanecroversal.values 2
-scoreboard players set $maxRadius wanecroversal.values 29999984
+scoreboard players set $maxRadius wanecroversal.values 29999983
 
 tellraw @a [\
     {"text":"[Datapack]"},\

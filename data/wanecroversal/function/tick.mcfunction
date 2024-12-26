@@ -1,6 +1,8 @@
 # c 2024-12-21
 # m 2024-12-26
 
+execute as @a unless score @s wanecroversal.seen matches 1 run scoreboard players set @s wanecroversal.seen 0
+execute as @a[scores={wanecroversal.seen=0}] at @s run function wanecroversal:init
 execute as @a[scores={wanecroversal.deaths=1..}] at @s run function wanecroversal:died
 
 execute store result score $radius wanecroversal.values \

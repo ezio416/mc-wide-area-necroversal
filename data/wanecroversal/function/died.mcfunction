@@ -7,4 +7,4 @@ execute store result storage wanecroversal:respawn_args radius int 1 \
     run gamerule spawnRadius
 execute if entity @s[nbt={Health:20f}, scores={wanecroversal.deaths=1..}] \
     run execute in minecraft:overworld \
-    run function wanecroversal:respawn with storage wanecroversal:respawn_args
+    run function wanecroversal:respawn_died
