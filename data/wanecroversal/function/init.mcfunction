@@ -20,7 +20,8 @@ tellraw @s [\
     {"text":" Beds and anchors do","color":"#FF8800"},\
     {"text":" not","color":"red"},\
     {"text":" work.","color":"#FF8800"},\
-    {"text":" There are also strongholds throughout the world every few thousand blocks.","color":"green"}\
+    {"text":" You will find Strongholds throughout the entire Overworld every few thousand blocks.","color":"green"},\
+    {"text":" This has only been tested in singleplayer!","color":"#FF8800"}\
 ]
 
 scoreboard players set @s wanecroversal.seen 1
