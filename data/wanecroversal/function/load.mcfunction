@@ -7,5 +7,5 @@ scoreboard objectives add wanecroversal.seen dummy
 tellraw @a [\
     {"text":"[Datapack]"},\
     {"text":" Wide Area Necroversal","color":"#00DDFF"},\
-    {"text":" enabled","color":"green"}\
+    {"text":" enabled",              "color":"#00DD00"}\
 ]

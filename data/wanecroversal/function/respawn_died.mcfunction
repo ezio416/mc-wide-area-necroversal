@@ -1,17 +1,20 @@
 # c 2024-12-26
-# m 2024-12-26
+# m 2024-12-27
 
 function wanecroversal:respawn with storage wanecroversal:respawn_args
 
 tellraw @s [\
-    {"text":"You died at ","color":"red"},\
-    {"nbt":"LastDeathLocation.pos[0]","entity":"@s","color":"#FFDD00"},\
-    {"text":", ","color":"red"},\
-    {"nbt":"LastDeathLocation.pos[1]","entity":"@s","color":"#FFDD00"},\
-    {"text":", ","color":"red"},\
-    {"nbt":"LastDeathLocation.pos[2]","entity":"@s","color":"#FFDD00"},\
-    {"text":" in ","color":"red"},\
+    {"text":"You died at ",                            "color":"#DD0000"},\
+    {"nbt":"LastDeathLocation.pos[0]","entity":"@s",   "color":"#FFDD00"},\
+    {"text":", ",                                      "color":"#DD0000"},\
+    {"nbt":"LastDeathLocation.pos[1]","entity":"@s",   "color":"#FFDD00"},\
+    {"text":", ",                                      "color":"#DD0000"},\
+    {"nbt":"LastDeathLocation.pos[2]","entity":"@s",   "color":"#FFDD00"},\
+    {"text":" in ",                                    "color":"#DD0000"},\
     {"nbt":"LastDeathLocation.dimension","entity":"@s","color":"#FFDD00"},\
-    {"text":".","color":"red"}\
+    {"text":".",                                       "color":"#DD0000"}\
 ]
-tellraw @s [{"text":"Good job. Now you're ","color":"#FF8800"},{"text":"somewhere.","color":"#FF8800","italic":true}]
+tellraw @s [\
+    {"text":"Good job. Now you're ",   "color":"#FF8800"},\
+    {"text":"somewhere.","italic":true,"color":"#FF8800"}\
+]
