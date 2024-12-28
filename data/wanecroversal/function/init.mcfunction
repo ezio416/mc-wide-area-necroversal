@@ -20,7 +20,7 @@ tellraw @s [\
     {"text":" Only tested in singleplayer!",                                    "color":"#FF8800"},\
     {"text":"\n\nTo change your spawn radius, run",                             "color":"#DD66DD"},\
     {"text":"\n/trigger wanecroversal.radius set <value>",                      "color":"#FFDD00"},\
-    {"text":"\n\nTo respawn manually, run",                                     "color":"#DD66DD"},\
+    {"text":"\nTo respawn manually, run",                                       "color":"#DD66DD"},\
     {"text":"\n/trigger wanecroversal.respawn",                                 "color":"#FFDD00"}\
 ]
 
