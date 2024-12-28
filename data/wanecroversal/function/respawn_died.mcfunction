@@ -1,7 +1,7 @@
 # c 2024-12-26
 # m 2024-12-27
 
-function wanecroversal:respawn with storage wanecroversal:respawn_args
+trigger wanecroversal.respawn
 
 tellraw @s [\
     {"text":"You died at ",                            "color":"#DD0000"},\

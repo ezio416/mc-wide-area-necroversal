@@ -2,6 +2,7 @@
 # m 2024-12-27
 
 scoreboard objectives add wanecroversal.deaths deathCount
+scoreboard objectives add wanecroversal.respawn trigger
 scoreboard objectives add wanecroversal.seen dummy
 
 tellraw @a [\
